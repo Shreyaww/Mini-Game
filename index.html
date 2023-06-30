@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Card Redirect</title>
+</head>
+<body>
+    <h1>Mini Games by Shreya</h1>
+    <div class="container">
+        <div class="card" onclick="redirectToURL('https://shreya-rock-paper-scissor.netlify.app/')">
+            <h2>Rock Paper Scissor</h2>
+            <!-- <p>Click to redirect</p> -->
+        </div>
+        <div class="card" onclick="redirectToURL('https://shreya-memory-game.netlify.app/')">
+            <h2>Memory Game</h2>
+            <!-- <p>Click to redirect</p> -->
+        </div>
+    </div>
+    <div id="particles-js"></div>
+
+    <script src="particles.js"></script>
+    <script src="app_bg.js"></script>
+    <script>
+        function redirectToURL(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
